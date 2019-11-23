@@ -1,0 +1,96 @@
+body {
+  background-image: url("../images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  max-width: 1440px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  width: 50%;
+}
+
+.p1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  width: 70%;
+}
+
+.p2 {
+  font-family: 'Poppins', sans-serif;
+  color: hsl(246, 25%, 77%);
+  font-size: 10px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.terms {
+  color: hsl(0, 100%, 74%);
+  text-decoration: none;
+}
+
+.left {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.right {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  position: relative;
+  left: 650px;
+  bottom: 100px;
+
+}
+
+.form {
+  background-color: white;
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4);
+  padding-top: 20px;
+}
+
+.try-it {
+  width: 500px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  text-align: center;
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 10px 0 10px 0;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.form-row {
+  width: 80%;
+  position: relative;
+  left: 38px;
+  margin-top: 15px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+input {
+  text-indent: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.submit {
+  background-color: hsl(154, 59%, 51%);
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  border: 0;
+}
